@@ -1,5 +1,5 @@
-const N = 100
-const seed = 3
+const N = Number(prompt("N = "));
+const seed = Number(prompt("seed = "));
 
 const divisor = seed + 2;
 let m = 0;
@@ -12,5 +12,4 @@ while (sum < N)
 		sum += m;
 }
 
-console.log(m);
-console.log(sum);
+alert(`${m}, ${sum}`);
